@@ -19,3 +19,7 @@ Follow the instructions in the "Fork and Clone" section of the notebook to get y
 The notebook takes advantage of the `%%bash` "magic" command (a feature of Jupyter Notebook) to invoke commands in the bash shell on your system. If you want to try typing the `git` commands at the git bash command prompt, leave out the `%%bash` part.
 
 When viewing locally, don't bother invoking the second code block, with the `HTML()` python method, because that sets the font to a large size for presenting.
+
+## Meetup Slides
+
+[Women In Data Science ATX October Meeting](https://docs.google.com/presentation/d/1WoxCvqB-XEZWLwHkjF0MsHrMd66A-b3f9b-Md6RLm9Y/)
