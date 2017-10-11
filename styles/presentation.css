@@ -2,6 +2,7 @@
 .inner_cell { font-size: 2em !important; line-height: 1.5em !important; }
 .output_subarea, .CodeMirror-code { font-size: 1.5em !important; line-height: 1.2em !important; }
 h1, h2, h3 { margin-top: 3em !important; }
+.container { width: 100% !important; }
 </style>
 <script>
 $('#toggle_header').click();
