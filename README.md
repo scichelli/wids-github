@@ -12,13 +12,19 @@ This workshop will give you alternatives to setting it all on fire.
 
 GitHub does a nice job of rendering Jupyter Notebooks, but even better, go to [the `.ipynb` file in GitHub](https://github.com/scichelli/wids-github/blob/master/Making%20GitHub%20Less%20Scary.ipynb) and use the theta-looking icon in the top right to open the notebook in `nbviewer`.
 
+## Repo for Exercises
+
+Use the [exercises repo](https://github.com/scichelli/wids-github-exercises) for modifying files and executing git commands, without getting conflicts from _this_ repo's tracking of the Notebook file you are using.
+
 ## Using this Notebook
 
-Follow the instructions in the "Fork and Clone" section of the notebook to get your own local copy. You need to have git, python 3, and jupyter notebook installed. Invoke the notebook with the command `jupyter notebook` when you are in the directory for this repo.
+Clone this repo to get your own local copy of the Notebook (see the "Fork and Clone" section of the notebook). You need to have git, python 3, and jupyter notebook installed. Invoke the notebook with the command `jupyter notebook` when you are in the directory for this repo.
 
 The notebook takes advantage of the `%%bash` "magic" command (a feature of Jupyter Notebook) to invoke commands in the bash shell on your system. If you want to try typing the `git` commands at the git bash command prompt, leave out the `%%bash` part.
 
-When viewing locally, don't bother invoking the second code block, with the `HTML()` python method, because that sets the font to a large size for presenting.
+When viewing locally, don't bother invoking the first code block, with the `HTML()` python method, because that sets the font to a large size for presenting.
+
+Within the Notebook are commands to clone the [exercises repo](https://github.com/scichelli/wids-github-exercises), so once you have the Notebook, it will guide you through getting the other repo.
 
 ## Meetup Slides
 
